@@ -1190,6 +1190,7 @@ min-height:350px;
 	}
 }
 
+/*
 @media (min-height:801px){
 		.see-more{
 			display:block;
@@ -1199,9 +1200,8 @@ min-height:350px;
 	.see-more{
 		display:none;
 	}
-
-
 }
+*/
 
 @media (max-width: 768px){
 	.container-80{
