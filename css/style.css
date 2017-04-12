@@ -1086,6 +1086,7 @@ min-height:350px;
 	}
 
 }
+
 @media (max-width: 1200px){
 
 	.navi li a:link, .navi li a:visited {
@@ -1116,6 +1117,7 @@ min-height:350px;
 	    width: 172px;
 	}
 }
+
 
 @media (min-width: 999px){
 
@@ -1187,6 +1189,7 @@ min-height:350px;
 		right:0px;
 	}
 }
+
 @media (min-height:801px){
 		.see-more{
 			display:block;
@@ -1197,9 +1200,8 @@ min-height:350px;
 		display:none;
 	}
 
+
 }
-
-
 
 @media (max-width: 768px){
 	.container-80{
@@ -1250,7 +1252,6 @@ min-height:350px;
 	}
 }
 
-
 @media (max-width: 667px){
 	h1 {
 	    font-size: 30px;
@@ -1269,6 +1270,8 @@ min-height:350px;
 		xpadding:0 10px;
 	}
 }
+
+
 
 @media (max-width: 468px){
 	.tour-home-01{
@@ -1295,3 +1298,4 @@ min-height:350px;
 
 
 }
+
