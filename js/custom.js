@@ -2,11 +2,9 @@
    ---------------------------- */
 
 $(window).load(function(){
-	$(' .spinner ').addClass(' wow fadeOut animated');
-	$(' .preloader ').delay( 800 ).fadeOut(1000); // set duration in brackets
 	 wow.init();
 });              
-/****************************version v1.1*********************/
+
 // niceScroll
 jQuery("html").niceScroll({
     scrollspeed: 50,
@@ -96,38 +94,6 @@ $(".navi a").on("click", function(){
    $(".navi").find(".selected").removeClass("selected");
    $(this).addClass("selected");
 });
-
-
-
-//////////////////////////////////////////////////////
-//													//
-//													//
-//	Full SCREEN VIDEO								//
-//													//
-//													//
-//////////////////////////////////////////////////////		
-
-
-$('.popup-vimeo, .popup-youtube').magnificPopup({
-        disableOn: 0,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 50,
-        preloader: false,
-        fixedContentPos: false
-});
-
-$(".see-more-button").click(function() {
-
-    $("html, body").animate({
-        scrollTop: $(window).scrollTop() + viewportSize.getHeight()
-    }, 500, function() {
-    	isSmoothScrolling = true;
-    });
-
-});
-
-
 
 /*=========================*/
      /*========Animation on scroll with wow.js====*/
