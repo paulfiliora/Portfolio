@@ -319,10 +319,9 @@ li {
 
 .text-up {
 	visibility: visible;
-	xanimation-delay: 1s;
+	animation-delay: 1s;
 	animation-name: fadeInUp;
 }
-
 
 /*///////////////////////////FULL SCREEN///////////////////////////*/
 
@@ -359,12 +358,6 @@ li {
 	overflow-x: hidden;
 	position: relative;
 	overflow-y: hidden;
-}
-
-.fullscreen-slidee {
-	width: 100%;
-	height: 100%;
-	position: relative;
 }
 
 .fullscreen-slide {
@@ -414,7 +407,7 @@ li {
 	transition: all 400ms ease;
 }
 
-.logo {
+/*.logo {
 	position: absolute;
 	top: 60px;
 	left: 60px;
@@ -427,7 +420,7 @@ li {
 
 .logo img {
 	width: 56px;
-}
+}*/
 
 .navi {
 	position: relative;
@@ -473,7 +466,7 @@ li {
 
 .navi li:last-of-type a {
 	border-top: none;
-	xpadding: 25px 50px 25px;
+	padding: 25px 50px 25px;
 }
 
 .btn-theme {
@@ -569,24 +562,14 @@ li {
 /*///////////////////////////NAVIGATION END////////////////////////////*/
 
 
-/*///////////////////////////HOME SECTION///////////////////////////*/
-/*.title-name {
-	padding-top: 205px;
-	text-align: center !important;
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-}*/
+/*///////////////////////////INTRO SECTION///////////////////////////*/
 
-
-.tour-home-01 {
+.intro {
 	z-index: 0;
 	position: static !important;
 }
 
-.tour-home-01::after {
+.intro::after {
 	content: "";
 	background: url(./img/black-small-checks.png) repeat;
 	top: 0;
@@ -595,30 +578,6 @@ li {
 	right: 0;
 	position: absolute;
 	z-index: 0;
-}
-
-.tour-home-02 {
-	background-image: url("./img/home-hero-2.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/our_work.jpg', sizingMethod='scale')";
-}
-
-.tour-home-03 {
-	background-image: url("/img/home-hero-3.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/our_work.jpg', sizingMethod='scale')";
 }
 
 .intro-logo img {
@@ -642,6 +601,7 @@ li {
 	font-family: 'GothamMedium', sans-serif;
 	font-size: 12px;
 	text-align: center;
+	color: white;
 }
 
 .see-more-btn {
@@ -704,9 +664,6 @@ li {
 	height: auto;
 }
 
-
-/*///////////////////////////HOME SECTION END///////////////////////////*/
-
 .see-all {
 	padding-top: 10px;
 }
@@ -715,11 +672,13 @@ li {
 	border: 3px;
 	border-style: solid;
 }
+/*///////////////////////////INTRO SECTION END///////////////////////////*/
 
 
-/*///////////////////////////HOME LIVE HERE HERO/////////////////////////////*/
 
-.tour-live-here {
+/*///////////////////////////DEVELOPER SECTION/////////////////////////////*/
+
+.dev-hero {
 	background-image: url("../img/headerwoodflowers.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -731,19 +690,7 @@ li {
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
 }
 
-.live-here::after {
-	content: "";
-	background: url(../img/black-small-checks.png) repeat;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: 0;
-}
-
-
-/*///////////////////////////HOME LIVE HERE HERO END/////////////////////////////*/
+/*///////////////////////////DEVELOPER SECTION END/////////////////////////////*/
 
 
 /*//////////////////////TECH SKILLS//////////////////////////////*/
@@ -765,9 +712,9 @@ li {
 /*////////////////////////////////HOME PERKS END//////////////////////////////*/
 
 
-/*////////////////////////////////HOME LIVE HERE MAP//////////////////////////////*/
+/*////////////////////////////////PERSONAL LINKS SECTION//////////////////////////////*/
 
-#live-here-map {
+#personalLinks {
 	background-image: url("../img/live-here-map.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -780,12 +727,12 @@ li {
 }
 
 
-/*////////////////////////////////HOME LIVE HERE MAP END//////////////////////////////*/
+/*////////////////////////////////PERSONAL LINKS SECTION END//////////////////////////////*/
 
 
-/*///////////////////////////HOME WORK HERE HERO/////////////////////////////*/
+/*///////////////////////////PROJECTS SECTION/////////////////////////////*/
 
-.tour-work-here {
+.projects-hero {
 	background-image: url("../img/temp2.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -797,7 +744,7 @@ li {
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
 }
 
-.tour-work-here::after {
+.projects-hero::after {
 	content: "";
 	background: url(/img/black-small-checks.png) repeat;
 	top: 0;
@@ -808,134 +755,17 @@ li {
 	z-index: 0;
 }
 
-#work-here-perks .col-xs-2 {
+#projects-examples .col-xs-2 {
 	padding: 0 20px 0 0 !important;
 }
-
-#work-here-map {
-	background-image: url("../img/work-here-map.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
-}
-
-
-/*///////////////////////////HOME WORK HERE HERO END/////////////////////////////*/
-
-
-/*///////////////////////////HOME GROW HERE HERO/////////////////////////////*/
-
-.tour-grow-here {
-	background-image: url("../img/temp2.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
-}
-
-#grow-here-perks .col-xs-2 {
-	padding: 0 20px 0 0 !important;
-}
-
-#grow-here-map {
-	background-image: url("../img/grow-here-map.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
-}
-
-
-/*///////////////////////////HOME WORK HERE HERO END/////////////////////////////*/
-
-
-/*///////////////////////////////LIVE HERE HERO /////////////////////////////////*/
-
-.live-here {
-	background-image: url("../img/live-here-hero.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
-}
-
-.perk-imgs {
-	width: 100%;
-	height: auto;
-}
-
-.perk-list {
-	list-style-type: disc;
-	padding-left: 40px;
-}
-
-.text-overlay {
-	margin: auto;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 55px;
-}
-
-
-/*///////////////////////////////LIVE HERE HERO END/////////////////////////////////*/
-
-
-/*///////////////////////////////GROW HERE HERO/////////////////////////////////*/
-
-.projects {
-	background-image: url("../img/work-here-hero.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
-}
-
-.grow-here {
-	background-image: url("../img/grow-here-hero.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/our_work.jpg', sizingMethod='scale')";
-}
-
-
-/*///////////////////////////////GROW HERE HERO END/////////////////////////////////*/
-
+/*///////////////////////////PROJECTS SECTION END/////////////////////////////*/
 
 /*///////////////////////////FOOTER/////////////////////////////////*/
 
-.footer-logo {
+/*.footer-logo {
 	width: 202.5px;
 	height: auto;
-}
+}*/
 
 .copyright {
 	font-size: 14px;
@@ -973,50 +803,8 @@ li {
 
 /*///////////////////////////FOOTER END/////////////////////////////////*/
 
-@media (min-width: 1400px) {
-	.featured-box {
-		min-height: 500px;
-	}
-	.popup-vimeo h4 {
-		bottom: 30px;
-		left: 30px;
-	}
-	.grow-tout {
-		xmin-height: 860px;
-	}
-	.work-tout {
-		min-height: 610px;
-	}
-	.tout {
-		min-height: 600px;
-	}
-}
 
-@media (max-width: 1400px) {
-	.featured-box {
-		min-height: 550px;
-	}
-	.grow-tout {
-		xmin-height: 800px;
-	}
-	.work-tout {
-		min-height: 550px;
-	}
-}
-
-@media (max-width: 1200px) {
-	.navi li a:link,
-	.navi li a:visited {
-		padding: 75px 25px 20px;
-	}
-	.navi ul {
-		max-width: 730px;
-	}
-	h1 {
-		font-size: 50px;
-		padding: 0 20px;
-	}
-}
+/*///////////////////////////MEDIA QUERIES/////////////////////////////////*/
 
 @media screen and (min-width:999px) and (max-height:1000px) {
 	.navi li a:link,
@@ -1106,113 +894,4 @@ li {
 		right: 0px;
 	}
 }
-
-
-/*
-@media (min-height:801px){
-		.see-more{
-			display:block;
-		}
-}
-@media (max-height:800px){
-	.see-more{
-		display:none;
-	}
-}
-*/
-
-@media (max-width: 768px) {
-	.container-80 {
-		width: 100%;
-	}
-	.featured-box {
-		min-height: 0px;
-	}
-	.grow-tout {
-		min-height: 0;
-	}
-	.work-tout {
-		min-height: 0;
-	}
-	.live-here {
-		background-position-x: 0;
-	}
-	.intro-logo img {
-		width: 172px;
-	}
-	.mesh-hero {
-		background-position-x: 0;
-	}
-	.tour-work-here {
-		background-position-x: 0px;
-	}
-	.icon {
-		float: none;
-	}
-	#live-here-perks .col-xs-12,
-	#live-here-perks .col-xs-10,
-	#live-here-perks p {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#work-here-perks .col-xs-12,
-	#work-here-perks .col-xs-10,
-	#work-here-perks p {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#grow-here-perks .col-xs-12,
-	#grow-here-perks .col-xs-10,
-	#grow-here-perks p {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.see-all {
-		padding-bottom: 30px;
-	}
-	.text-right {
-		text-align: left;
-	}
-}
-
-@media (max-width: 667px) {
-	h1 {
-		font-size: 30px;
-		max-width: 400px;
-		margin: 0 auto;
-	}
-	h2 {
-		font-size: 20px;
-	}
-	h4 {
-		font-size: 14px;
-	}
-	p {
-		font-size: 16px;
-		xpadding: 0 10px;
-	}
-}
-
-@media (max-width: 468px) {
-	.tour-home-01 {
-		background-position-x: 58%;
-	}
-	.logo {
-		display: none;
-	}
-	.logo.mobile {
-		display: block;
-		top: 22px;
-		left: 30px;
-	}
-	.hamburger {
-		top: 30px;
-		right: 30px;
-	}
-	.header {
-		height: 100px;
-	}
-	.navi {
-		top: 100px;
-	}
-}
+/*///////////////////////////MEDIA QUERIES END/////////////////////////////////*/
