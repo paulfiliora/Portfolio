@@ -30,10 +30,10 @@
 		<div class="header">
 			<div class="navi">
 				<ul>
-					<li><a href="#featured">ABOUT ME</a></li>
-					<li><a href="#techSkills/">TECH SKILLS</a></li>
-					<li><a href="#projects/">PROJECTS</a></li>
-					<li><a href="#contactMe/">CONTACT</a></li>
+					<li><a class="smoothScroll" href="#featured">ABOUT ME</a></li>
+					<li><a class="smoothScroll" href="#techSkills">TECH SKILLS</a></li>
+					<li><a class="smoothScroll" href="#projects">PROJECTS</a></li>
+					<li><a class="smoothScroll" href="#contactMe">CONTACT</a></li>
 					<li class="contact">
 						<a href="mailto:paul.filiora@gmail.com" title=""><img src="./img/contact-btn.png" alt="Contact Me" /></a>
 					</li>
@@ -57,8 +57,8 @@
 				<p class="white max-775 pad-bot-30"> Full stack web developer // Giving life to Creativity</p>
 			</div>
 			<div class="wow bounceInUp see-more" data-wow-delay="1.8s">
-				<div class="see-more-copy  pad-bot-20 text-uppercase">See more!</div>
-				<a class="see-more-btn" href="#featured"><img src="./img/see-more-btn.png" /></a>
+				<div class="see-more-copy pad-bot-20 text-uppercase">See more!</div>
+				<a class="see-more-btn smoothScroll" href="#featured"><img src="./img/see-more-btn.png" /></a>
 			</div>
 		</div>
 	</section>
@@ -76,24 +76,20 @@
 			</div>
 			<div class="wow fadeInUp col-lg-4 pad-bot-50" data-wow-delay=".3s">
 				<img src="./img/gridfreedomtower.jpg" style="width:100%; height:auto; position:relative; padding-bottom:30px;">
-				<h2 class="dk-grey pad-bot-10">GRAPHIC DESIGNER</h2>
-				<p class="dk-grey pad-bot-10">Marketing graphic designer for print, email, & web content.</p>
-				<a alt="alvin-and-friends-restaurant" class=" btn-theme border-btn lt-blue" href="./alvin-and-friends/">STUFF I'VE MADE</a>
-
+				<h2 class="dk-grey pad-bot-10">PROJECT MANAGEMENT</h2>
+				<p class="dk-grey pad-bot-10">Expertise in information technology, leadership, and liaison between management, clients, and personnel</p>
 			</div>
 
 			<div class="wow fadeInUp col-lg-4 pad-bot-50" data-wow-delay=".5s">
 				<img src="./img/gridnicobar.jpg" style="width:100%; height:auto; position:relative; padding-bottom:30px;">
-				<h2 class="dk-grey pad-bot-10">PHOTOGRAPHER</h2>
-				<p class="dk-grey pad-bot-10">Looking to turn a hobby into a piece of my professional skillset. From snap to post-production.</p>
-				<a alt="crossfit-pop" class=" btn-theme border-btn lt-blue text-uppercase" href="./crossfit-pop/">STUFF I'VE SEEN</a>
+				<h2 class="dk-grey pad-bot-10">PHOTOGRAPHY</h2>
+				<p class="dk-grey pad-bot-10">Amateur photographer with works included in marketing & advertisement for both print & digital media</p>
 			</div>
 
 			<div class="wow fadeInUp col-lg-4 pad-bot-50" data-wow-delay=".7s">
 				<img src="./img/gridsunset.jpg" style="width:100%; height:auto; position:relative; padding-bottom:30px;">
-				<h2 class="dk-grey pad-bot-10">WEB DEVELOPER</h2>
-				<p class="dk-grey pad-bot-10">Learning to be a full stack web developer at NYCDA under the awesome tutelage of Taq & baba.</p>
-				<a alt="mesh-print-studio" class=" btn-theme border-btn lt-blue" href="./mesh-print-studio/">STUFF I'VE DONE</a>
+				<h2 class="dk-grey pad-bot-10">WEB DEVELOPMENT</h2>
+				<p class="dk-grey pad-bot-10">Full stack web developer at NYCDA under the awesome tutelage of Taq & baba.</p>
 			</div>
 		</div>
 	</section>
@@ -124,7 +120,7 @@
 				</div>
 				<div class="col-sm-10">
 					<h2 class="pad-bot-20">Backend Development</h2>
-					<p class="pad-bot-20">Node.js, Express, SQLite, Restful APIs, React</p>
+					<p class="pad-bot-20">Node.js, Express, SQLite, Restful APIs, Flux, React</p>
 				</div>
 			</div>
 			<div class="col-lg-6 col-xs-12 wow fadeInUp" data-wow-delay=".5s">
@@ -142,7 +138,7 @@
 				</div>
 				<div class="col-sm-10">
 					<h2 class="pad-bot-20">Creative & Design</h2>
-					<p class="pad-bot-20">GIMP, Photoshop, InDesign, Illustrator, Premiere Pro, After Effects, Audition</p>
+					<p class="pad-bot-20">GIMP, Photoshop, InDesign, Illustrator, Premiere Pro, Audition</p>
 				</div>
 			</div>
 			<div class="col-lg-6 col-xs-12 wow fadeInUp" data-wow-delay=".7s">
@@ -162,7 +158,7 @@
 	<div id="personalLinks" class="container-100 lt-grey-bk padding-80">
 		<div class="text-center wow fadeInUp" data-wow-delay=".3s">
 			<h4 class="white pad-bot-10">Personal Pages &amp; Background</h4>
-			<a class="btn-theme border-btn white" target="_blank" href="./resources/Paul Filiora Resume.pdf">Resume</a>
+			<a class="btn-theme border-btn white" target="_blank" href="./img/Paul Filiora Resume.pdf">Resume</a>
 			<a class="btn-theme border-btn white" target="_blank" href="https://www.linkedin.com/in/paul-filiora-8a237631">LinkedIn</a>
 			<a class="btn-theme border-btn white" target="_blank" href="https://github.com/pfiliora">Github</a></div>
 	</div>
@@ -235,27 +231,21 @@
 	</section>
 
 	<!--FOOTER SECTION-->
-	<footer id="contactMe" class="footer padding-80 grey-bk">
+	<footer id="contactMe" class="footer padding-50 grey-bk">
 		<div class="container">
 			<h2 class="white text-center pad-bot-10 ">Contact Me</h2>
-			<div class="col-lg-12 text-center pad-bot-50">
+			<div class="col-lg-12 pad-bot-10 text-center">
 				<!-- <a href="" target="_blank"><img class="footer-logo pad-bot-30" src="./img/footer-logo.png"></a> -->
 				<div class="social-icons">
-					<a href="#" class="social-icon" target="_blank"><img src="./img/facebook-icon.svg"></a>
-					<a href="#" class="social-icon" target="_blank"><img src="./img/github-mark-light-32px.png"></a>
-					<a href="#" class="social-icon" target="_blank"><img src="./img/instagram-icon.svg"></a>
+					<a href="https://www.facebook.com/paul.filiora" class="social-icon" target="_blank"><img src="./img/facebook-icon.svg"></a>
+					<a href="https://github.com/pfiliora" class="social-icon" target="_blank"><img src="./img/github-mark-light-32px.png"></a>
+					<a href="https://www.instagram.com/p.filiora/" class="social-icon" target="_blank"><img src="./img/instagram-icon.svg"></a>
 				</div>
 			</div>
-			<div class="col-sm-6 footer-links pad-bot-50">
+			<div class=" text-center">
 				<ul>
-					<li><a class="footer-grey" href="/" target="">Resume</li>
-					<li><a class="footer-grey" href="mailto:paul.filiora@gmail.com" target="">E-Mail: Paul.Filiora@gmail.com</li>
-				</ul>
-			</div>
-			<div class="col-sm-6 footer-links pad-bot-50 text-right">
-				<ul>
-					<li><a class="footer-grey" href="http://www.blank" target="">Stuff</li>
-					<li><a class="footer-grey" href="http://www.blank/" target="">Stuff Website</li>
+					<li><a class="footer-grey" href="mailto:paul.filiora@gmail.com" target="">Paul.Filiora@gmail.com</li>
+					<li><a class="footer-grey" href="./img/Paul Filiora Resume.pdf" target="">Resume</li>
 				</ul>
 			</div>
 		</div>
@@ -265,13 +255,14 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- All compiled plugins -->
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./js/jquery.vide.min.js"></script>
 <script type="text/javascript" src="./js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="./js/jquery.magnific-popup.js"></script>
 <script type="text/javascript" src="./js/wow.min.js"></script>
 <script type="text/javascript" src="./js/viewport.min.js"></script>
+<!-- Personal JS -->
 <script type="text/javascript" src="./js/custom.js"></script>
 
     </body>
