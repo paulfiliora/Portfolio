@@ -1,10 +1,4 @@
-/* CSS
-
-*/
-
-
-/* Font Face
----------------------------------------------------------------------------------*/
+/* Font Face*/
 
 html,
 body {
@@ -13,7 +7,6 @@ body {
 }
 
 p {
-	/*font-family: 'GothamBook', sans-serif;*/
 	font-weight: 100;
 	-webkit-font-smoothing: antialiased;
 }
@@ -34,7 +27,6 @@ h6 {
 }
 
 h1 {
-	/*font-family: 'GothamLight', sans-serif;*/
 	font-size: 60px;
 	letter-spacing: 10px;
 	line-height: 1;
@@ -45,7 +37,6 @@ h1 {
 }
 
 h2 {
-	/*font-family: 'GothamLight', sans-serif;*/
 	font-size: 28px;
 	line-height: 1;
 	letter-spacing: 2px;
@@ -53,20 +44,17 @@ h2 {
 
 h3 {
 	margin-top: 0px;
-	/*font-family: 'GothamMedium', sans-serif;*/
 	font-size: 20px;
 	letter-spacing: 1px;
 	text-transform: none;
 }
 
 h4 {
-	/*font-family: 'GothamMedium', sans-serif;*/
 	font-size: 18px;
 	letter-spacing: 5px;
 }
 
 h5 {
-	/*font-family: 'GothamMedium', sans-serif;*/
 	font-size: 16px;
 }
 
@@ -107,13 +95,7 @@ ul {
 	line-height: 24px;
 }
 
-li {
-	/*font-family: 'GothamMedium', sans-serif;*/
-	;
-}
-
 .handle-text {
-	/*font-family: 'GothamMedium';*/
 	margin-bottom: 0;
 }
 
@@ -134,7 +116,6 @@ li {
 }
 
 .footer p {
-	/*font-family: 'GothamMedium', sans-serif;*/
 	font-size: 12px;
 }
 
@@ -178,8 +159,7 @@ li {
 	background-color: #232a33;
 }
 
-
-/*---------------------------------------------------General Spacing-------------------------------------------------*/
+/*///////////////////////////General Spacing///////////////////////////*/
 
 .clr {
 	clear: both;
@@ -389,10 +369,6 @@ li {
 
 /*///////////////////////////NAVIGATION////////////////////////////*/
 
-
-/* header
------------------------------------------*/
-
 .header-wrapper {}
 
 .header {
@@ -559,7 +535,6 @@ li {
 	height: auto;
 }
 
-
 /*///////////////////////////NAVIGATION END////////////////////////////*/
 
 
@@ -710,7 +685,7 @@ li {
 }
 
 
-/*////////////////////////////////HOME PERKS END//////////////////////////////*/
+/*////////////////////////////////TECH SKILLS END//////////////////////////////*/
 
 
 /*////////////////////////////////PERSONAL LINKS SECTION//////////////////////////////*/
