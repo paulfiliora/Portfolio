@@ -95,6 +95,10 @@ ul {
 	line-height: 24px;
 }
 
+.shadow {
+	/*text-shadow: 2px 2px #232a33;*/
+}
+
 .handle-text {
 	margin-bottom: 0;
 }
@@ -170,6 +174,10 @@ ul {
 
 .padding-50 {
 	padding: 50px 0;
+}
+
+.pad-sides-50 {
+	padding: 0px 20px 0px 20px;
 }
 
 .pad-bot-50 {
@@ -648,6 +656,8 @@ ul {
 	border: 3px;
 	border-style: solid;
 }
+
+
 /*///////////////////////////INTRO SECTION END///////////////////////////*/
 
 
