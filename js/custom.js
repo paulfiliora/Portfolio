@@ -36,10 +36,10 @@ function toggleNav() {
 
   }
 }
-window.addEventListener("resize", myFunction);
+window.addEventListener("resize", resizeCheck);
 
 
-function myFunction() {
+function resizeCheck() {
   if ($(window).width() > 998) {
     $('.navi').hide();
     $('.header').removeClass('solid');
@@ -49,7 +49,7 @@ function myFunction() {
 }
 
 
-// Add smooth scrolling to all links inside a navbar
+// Define smooth scrolling behavior to all links inside a navbar
 $(".smoothScroll").on('click', function (event) {
   if (this.hash !== "") {
     event.preventDefault();
@@ -75,6 +75,3 @@ wow = new WOW(
     mobile: true
   }
 );
-
-
-
